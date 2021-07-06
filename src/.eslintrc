@@ -18,6 +18,7 @@
       ],
       "react/prop-types": 0,
       "no-underscore-dangle": 0,
+      "arrow-body-style": [1,"always"],
       "import/imports-first": [
         "error",
         "absolute-first"

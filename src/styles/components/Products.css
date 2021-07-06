@@ -1,0 +1,40 @@
+.Products {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+}
+.product:hover {
+  cursor: pointer;
+  transition: 200ms;
+  box-shadow: 1px 2px 6px 2px rgba(0, 0, 0, 0.318);
+}
+.cover {
+  background: #000;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70%;
+  border: solid 1px rgb(255, 255, 255);
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+}
+.data {
+  height: 30%;
+  display: flex;
+  background: rgb(57, 94, 240);
+  border: solid 1px rgb(255, 255, 255);
+  border-top: none;
+  border-radius: 0px 0px 10px 10px;
+  flex-direction: column;
+  padding: 5px;
+}
